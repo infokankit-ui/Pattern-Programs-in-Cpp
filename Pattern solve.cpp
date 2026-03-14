@@ -101,7 +101,7 @@
 //     return 0;
 // }
 
-
+//PRIME NUMBER
 // #include <iostream>
 // using namespace std;
 // int main() {

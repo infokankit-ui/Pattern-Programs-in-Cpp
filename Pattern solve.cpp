@@ -807,3 +807,42 @@ int main() {
         i++;
         cout << endl; }
     return 0; } 
+
+
+//pyramid structure 
+    *
+   ***
+  *****
+ *******
+*********
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    int rows;
+    cout << "Enter the rows = ";
+    cin >> rows;
+    int i = 1;
+    while(i <= rows) {
+        // spaces
+        int j = 1;
+        while(j <= rows - i) {
+            cout << " ";
+            j++;
+        }
+        // stars
+        int k = 1;
+        while(k <= 2*i - 1) {
+            cout << "*";
+            k++;
+        }
+
+        cout << endl;
+        i++;
+    }
+
+    return 0;
+}
+
+
